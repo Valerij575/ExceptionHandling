@@ -1,0 +1,159 @@
+﻿<trace>
+  <timestamp>2022-01-26 10:58:05</timestamp>
+  <operation>GetControllerTypes</operation>
+  <user>WebHostHttpControllerTypeResolver</user>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:13:53</timestamp>
+  <operation>GetControllerTypes</operation>
+  <user>WebHostHttpControllerTypeResolver</user>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:14:05</timestamp>
+  <operation />
+  <user />
+  <message><![CDATA[http://localhost:49315/api/employees/12345]]></message>
+  <category>System.Web.Http.Request</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:14:08</timestamp>
+  <operation>SelectController</operation>
+  <user>DefaultHttpControllerSelector</user>
+  <message><![CDATA[Route='controller:employees,id:12345']]></message>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:14:08</timestamp>
+  <operation>SelectController</operation>
+  <user>DefaultHttpControllerSelector</user>
+  <message><![CDATA[Employees]]></message>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:14:08</timestamp>
+  <operation>CreateController</operation>
+  <user>HttpControllerDescriptor</user>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:14:08</timestamp>
+  <operation>Create</operation>
+  <user>DefaultHttpControllerActivator</user>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:14:08</timestamp>
+  <operation>Create</operation>
+  <user>DefaultHttpControllerActivator</user>
+  <message><![CDATA[AspNetWebApi.Controllers.EmployeesController]]></message>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:14:08</timestamp>
+  <operation>CreateController</operation>
+  <user>HttpControllerDescriptor</user>
+  <message><![CDATA[AspNetWebApi.Controllers.EmployeesController]]></message>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:14:08</timestamp>
+  <operation>ExecuteAsync</operation>
+  <user>EmployeesController</user>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:14:08</timestamp>
+  <operation>SelectAction</operation>
+  <user>ApiControllerActionSelector</user>
+  <category>System.Web.Http.Action</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:14:08</timestamp>
+  <operation>SelectAction</operation>
+  <user>ApiControllerActionSelector</user>
+  <message><![CDATA[Selected action 'Get(Int32 id)']]></message>
+  <category>System.Web.Http.Action</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:14:08</timestamp>
+  <operation>ExecuteBindingAsync</operation>
+  <user>HttpActionBinding</user>
+  <category>System.Web.Http.ModelBinding</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:14:08</timestamp>
+  <operation>ExecuteBindingAsync</operation>
+  <user>ModelBinderParameterBinding</user>
+  <message><![CDATA[Binding parameter 'id']]></message>
+  <category>System.Web.Http.ModelBinding</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:14:08</timestamp>
+  <operation>ExecuteBindingAsync</operation>
+  <user>ModelBinderParameterBinding</user>
+  <message><![CDATA[Parameter 'id' bound to the value '12345']]></message>
+  <category>System.Web.Http.ModelBinding</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:14:08</timestamp>
+  <operation>ExecuteBindingAsync</operation>
+  <user>HttpActionBinding</user>
+  <message><![CDATA[Model state is valid. Values: id=12345]]></message>
+  <category>System.Web.Http.ModelBinding</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:14:08</timestamp>
+  <operation>InvokeActionAsync</operation>
+  <user>ApiControllerActionInvoker</user>
+  <message><![CDATA[Action='Get(id=12345)']]></message>
+  <category>System.Web.Http.Action</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:14:08</timestamp>
+  <operation>ExecuteAsync</operation>
+  <user>ReflectedHttpActionDescriptor</user>
+  <message><![CDATA[Invoking action 'Get(id=12345)']]></message>
+  <category>System.Web.Http.Action</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:14:08</timestamp>
+  <operation>ExecuteAsync</operation>
+  <user>ReflectedHttpActionDescriptor</user>
+  <message><![CDATA[Cancelled]]></message>
+  <category>System.Web.Http.Action</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:14:08</timestamp>
+  <operation>InvokeActionAsync</operation>
+  <user>ApiControllerActionInvoker</user>
+  <message><![CDATA[Cancelled]]></message>
+  <category>System.Web.Http.Action</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:14:08</timestamp>
+  <operation>ExecuteAsync</operation>
+  <user>EmployeesController</user>
+  <message><![CDATA[Cancelled]]></message>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:14:08</timestamp>
+  <operation />
+  <user />
+  <message><![CDATA[Cancelled]]></message>
+  <category>System.Web.Http.Request</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:14:08</timestamp>
+  <operation>Dispose</operation>
+  <user>EmployeesController</user>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <timestamp>2022-01-26 11:14:08</timestamp>
+  <operation>Dispose</operation>
+  <user>EmployeesController</user>
+  <category>System.Web.Http.Controllers</category>
+</trace>
