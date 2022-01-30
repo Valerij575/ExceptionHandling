@@ -1,11 +1,14 @@
 ﻿using AspNetWebApi.Data.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
 using System.Web.Http;
 
-namespace AspNetWebApi.Controllers
+namespace AsspNetWebApi.Tracing.Controllers
 {
-    public class EmployeesController : ApiController
+    public class EmployeeController : ApiController
     {
         private static IList<Employee> list = new List<Employee>()
         {
@@ -58,6 +61,5 @@ namespace AspNetWebApi.Controllers
             Employee employee = Get(id);
             list.Remove(employee);
         }
-
     }
 }

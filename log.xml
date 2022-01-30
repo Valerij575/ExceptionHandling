@@ -157,3 +157,186 @@
   <user>EmployeesController</user>
   <category>System.Web.Http.Controllers</category>
 </trace>
+<trace>
+  <timestamp>2022-01-30 13:43:53</timestamp>
+  <operation>GetControllerTypes</operation>
+  <user>WebHostHttpControllerTypeResolver</user>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:05</timestamp>
+  <operation>GetControllerTypes</operation>
+  <user>WebHostHttpControllerTypeResolver</user>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:24</timestamp>
+  <operation />
+  <user />
+  <message><![CDATA[http://localhost:62341/api/employee]]></message>
+  <category>System.Web.Http.Request</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:28</timestamp>
+  <operation>SelectController</operation>
+  <user>DefaultHttpControllerSelector</user>
+  <message><![CDATA[Route='controller:employee']]></message>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:29</timestamp>
+  <operation>SelectController</operation>
+  <user>DefaultHttpControllerSelector</user>
+  <message><![CDATA[Employee]]></message>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:31</timestamp>
+  <operation>CreateController</operation>
+  <user>HttpControllerDescriptor</user>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:31</timestamp>
+  <operation>Create</operation>
+  <user>DefaultHttpControllerActivator</user>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:32</timestamp>
+  <operation>Create</operation>
+  <user>DefaultHttpControllerActivator</user>
+  <message><![CDATA[AsspNetWebApi.Tracing.Controllers.EmployeeController]]></message>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:33</timestamp>
+  <operation>CreateController</operation>
+  <user>HttpControllerDescriptor</user>
+  <message><![CDATA[AsspNetWebApi.Tracing.Controllers.EmployeeController]]></message>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:36</timestamp>
+  <operation>ExecuteAsync</operation>
+  <user>EmployeeController</user>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:36</timestamp>
+  <operation>SelectAction</operation>
+  <user>ApiControllerActionSelector</user>
+  <category>System.Web.Http.Action</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:36</timestamp>
+  <operation>SelectAction</operation>
+  <user>ApiControllerActionSelector</user>
+  <message><![CDATA[Selected action 'Get()']]></message>
+  <category>System.Web.Http.Action</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:36</timestamp>
+  <operation>ExecuteBindingAsync</operation>
+  <user>HttpActionBinding</user>
+  <category>System.Web.Http.ModelBinding</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:36</timestamp>
+  <operation>ExecuteBindingAsync</operation>
+  <user>HttpActionBinding</user>
+  <category>System.Web.Http.ModelBinding</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:36</timestamp>
+  <operation>InvokeActionAsync</operation>
+  <user>ApiControllerActionInvoker</user>
+  <message><![CDATA[Action='Get()']]></message>
+  <category>System.Web.Http.Action</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:36</timestamp>
+  <operation>ExecuteAsync</operation>
+  <user>ReflectedHttpActionDescriptor</user>
+  <message><![CDATA[Invoking action 'Get()']]></message>
+  <category>System.Web.Http.Action</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:36</timestamp>
+  <operation>ExecuteAsync</operation>
+  <user>ReflectedHttpActionDescriptor</user>
+  <message><![CDATA[Action returned 'System.Collections.Generic.List`1[AspNetWebApi.Data.Models.Employee]']]></message>
+  <category>System.Web.Http.Action</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:36</timestamp>
+  <operation>Negotiate</operation>
+  <user>DefaultContentNegotiator</user>
+  <message><![CDATA[Type='IEnumerable`1', formatters=[JsonMediaTypeFormatterTracer, XmlMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer]]]></message>
+  <category>System.Net.Http.Formatting</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:36</timestamp>
+  <operation>GetPerRequestFormatterInstance</operation>
+  <user>XmlMediaTypeFormatter</user>
+  <message><![CDATA[Obtaining formatter of type 'XmlMediaTypeFormatter' for type='IEnumerable`1', mediaType='application/xml; charset=utf-8']]></message>
+  <category>System.Net.Http.Formatting</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:36</timestamp>
+  <operation>GetPerRequestFormatterInstance</operation>
+  <user>XmlMediaTypeFormatter</user>
+  <message><![CDATA[Will use same 'XmlMediaTypeFormatter' formatter]]></message>
+  <category>System.Net.Http.Formatting</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:36</timestamp>
+  <operation>Negotiate</operation>
+  <user>DefaultContentNegotiator</user>
+  <message><![CDATA[Selected formatter='XmlMediaTypeFormatter', content-type='application/xml; charset=utf-8']]></message>
+  <category>System.Net.Http.Formatting</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:36</timestamp>
+  <operation>InvokeActionAsync</operation>
+  <user>ApiControllerActionInvoker</user>
+  <category>System.Web.Http.Action</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:36</timestamp>
+  <operation>ExecuteAsync</operation>
+  <user>EmployeeController</user>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:36</timestamp>
+  <operation />
+  <user />
+  <message><![CDATA[Content-type='application/xml; charset=utf-8', content-length=unknown]]></message>
+  <category>System.Web.Http.Request</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:37</timestamp>
+  <operation>WriteToStreamAsync</operation>
+  <user>XmlMediaTypeFormatter</user>
+  <message><![CDATA[Value='System.Collections.Generic.List`1[AspNetWebApi.Data.Models.Employee]', type='IEnumerable`1', content-type='application/xml; charset=utf-8']]></message>
+  <category>System.Net.Http.Formatting</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:37</timestamp>
+  <operation>WriteToStreamAsync</operation>
+  <user>XmlMediaTypeFormatter</user>
+  <category>System.Net.Http.Formatting</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:37</timestamp>
+  <operation>Dispose</operation>
+  <user>EmployeeController</user>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <timestamp>2022-01-30 13:44:37</timestamp>
+  <operation>Dispose</operation>
+  <user>EmployeeController</user>
+  <category>System.Web.Http.Controllers</category>
+</trace>

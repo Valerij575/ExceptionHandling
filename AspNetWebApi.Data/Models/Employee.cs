@@ -1,5 +1,5 @@
 ﻿
-namespace AspNetWebApi.Models
+namespace AspNetWebApi.Data.Models
 {
     public class Employee
     {
