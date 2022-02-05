@@ -160,10 +160,13 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TracesController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\EntryExitTracer.cs" />
+    <Compile Include="Models\RingBufferLog.cs" />
     <Compile Include="Models\WebApiTracer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
